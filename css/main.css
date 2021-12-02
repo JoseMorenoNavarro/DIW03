@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width:100%;
+}
+h1{
+    color: #1b1b1b;
+    font-weight: 800;  
+    font-size: 2rem;
+}
+h2{
+    color: #1b1b1b;
+    font-weight: 800;   
+    font-size: 0.7rem;
+}
+a{    
+    color: #ffffff;
+    text-decoration-line: none;    
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+a:hover{    
+    color: #F1205F;
+}
+header {
+    margin: 0;
+	background-color: #593C3C;
+    height: 76px;
+}
+footer{
+	background-color: #593C3C;
+    margin: 0 auto;
+    display: flex;        
+    color: #ffffff;  
+    flex-direction: initial;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 76px;
+}
+.logoimg{
+	width: 183px;
+	height: 68px;
+}
+.container{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+    margin-left: 1rem;
+}
+.registro{    
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-end;    
+    align-items: center;
+}
+.busqueda{    
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;    
+    align-items: center;
+}
+.busqueda *{    
+    margin-right: 1rem;
+}
+.buscar{
+    width: 100%;
+    border: 3px solid #dddddd;
+    padding: 5px;
+    height: 20px;
+    border-radius: 0.4rem;
+    outline: none;
+    margin: 0 1rem 0 1rem;
+}
+.user{
+    background: url("../img/user.png") no-repeat center center;  
+	width: 50px;
+	height: 27px;
+    background-size:cover;
+}
+.registroBoton{  
+    border-style: none;
+    border-radius: 0.2rem;
+    color: #593C3C;
+    padding: 0.3rem;
+    background:#F3F5F7;
+    width: 122px;
+    height:40px;
+    font-size: 1rem;
+}
+.registroBoton:hover{    
+    background: #F1205F;  
+}
+.imagenfondo{
+    background: url("../img/background.jpg") no-repeat center center;
+    min-height: 84vh;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acceso{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 1rem);
+}
+.accesocentral{      
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textoCentral{ 
+    margin:0;
+    font-size: 3rem;
+    transform: rotate(15deg);
+    color: #FFFFFF;
+    font-family: 'Creepster', cursive;
+}
+.RegistroCentral{  
+    border-style: none;
+    border-radius: 1rem;
+    color: #272727;
+    padding: 0.3rem;
+    background:#EDAA45;
+    width: 251px;
+    height: 61px;
+    font-size: 2rem;
+    transform: rotate(-15deg);
+    margin-top: 3rem;
+}
+.RegistroCentral:hover{  
+    background:#ffffff;
+}
+.arrow_left{
+    background: url("../img/icon-arrow-left.png");    
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;    
+    margin-right: 0;
+}
+.arrow_right{
+    background: url("../img/icon-arrow-right.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;    
+    margin-right: 0;
+}
+.logosfood{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: flex-start;  
+    margin-left: 1rem;
+}
+.imagenlogo{    
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+}
+.minilogo1{
+	width: 55px;
+	height: 55px;
+    margin-left: 2rem;
+}
+.minilogo2{
+	width: 122px;
+	height: 55px;
+    margin-left: 2rem;
+}
+.rrss{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+.facebook{
+	width: 15px;
+	height: 15px;
+    margin-left: 2rem;
+}
+.twitter{
+	width: 15px;
+	height: 15px;
+    margin-left: 2rem;
+}
+.facebook{
+    background: url("../img/facebook-xxl.png") no-repeat center center;   
+	width: 15px;
+	height: 15px;
+    margin-left: 2rem;
+    background-size:cover;
+}
+.twitter{
+    background: url("../img/twitter.png") no-repeat center center;  
+	width: 15px;
+	height: 15px;
+    margin-left: 2rem;
+    background-size:cover;
+}
+.cuerpoComida{    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cabeceraComida{
+    display: flex;
+    justify-content: space-between;
+    width: 1216px;
+}
+.tituloComida{
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+    margin-left: 1rem;
+}
+.fitroComida{
+    display: flex;
+    justify-content: flex-end;    
+    align-items: center;
+}
+.enlaceComida{
+    width: 570px;
+    max-height: 261px;
+    border: 1px solid #dddddd;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 2rem;
+}
+.imagenComida1{
+    background: url("../img/tomato.jpg") no-repeat center center;
+    width: 514px;
+    max-height: 261px;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid #dddddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.imagenComida2{
+    background: url("../img/pizza.jpg") no-repeat center center;
+    width: 514px;
+    max-height: 261px;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid #dddddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.imagenComida3{
+    background: url("../img/burger.jpg") no-repeat center center;
+    width: 514px;
+    max-height: 261px;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid #dddddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.cuerpo section{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 70vh;
+}
+.cuerpo section article{
+    display: flex;    
+    flex-direction: initial;
+    margin: 2rem;
+}
+.ordenarIco{
+    background: url("../img/icon-arrow-left.png") no-repeat center center;  
+	width: 25px;
+	height: 25px;
+    margin: 0;
+    background-size:cover;
+    transform: rotate(90deg);
+    margin-left:1rem;
+}
+.hamIco{
+    background: url("../img/Hamburger_icon.png") no-repeat center center;  
+	width: 25px;
+	height: 25px;
+    margin: 0;
+    background-size:cover;
+    margin-left:1rem;
+}
